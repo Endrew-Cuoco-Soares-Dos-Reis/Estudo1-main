@@ -15,6 +15,7 @@
 
     body{
       background-color: rgb(209, 191, 161);
+      
     }
 
     .blocoPrincipal {
@@ -26,6 +27,7 @@
       margin-left: 30%;
       margin-right: 50%;
       margin-top: 1.5%;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
     .omelette img{
@@ -38,7 +40,6 @@
       text-align: initial;
       padding: 1px;
       letter-spacing: 4px;
-      font-family: 'Times New Roman', Times, serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
 
     .texto{
@@ -83,10 +84,19 @@
 
     table{
       width: 100%;
-      margin-left: 00px;
     }
-    table td{
-      border-bottom: 1px solid;
+    
+    .dados{
+      display: flex;
+      margin: -2%;
+      margin-left: 10%;
+      margin-right: 40%;
+      justify-content: space-between;
+    }
+    
+    .numeração{
+      margin-left: 50%;
+      color: rgb(112, 62, 84);
     }
 
   </style>
@@ -165,30 +175,45 @@
           The table below shows nutritional values per serving without the additional fillings.<br>
           </p>
 
-          <table >
+         
             <tr>
-              <td>Calories</td>
-              <td>277kcal</td>
-              
+              <td>
+                <div class="dados">
+                  <p>Calories</p>
+                  <strong><p class="numeração">277kcal</p></strong>
+                </div>
+              </td>
+              <hr>
             </tr>
               
             <tr>
-              <td>Carbs</td>
-              <td>0g</td>
-              
+              <td>
+                <div class="dados">
+                  <p>arbs</p>
+                  <strong><p class="numeração">0g</p></strong>
+                </div>
+              </td>
+              <hr>
             </tr>
               
             <tr>
-              <td>Protein</td>
-              <td>20g</td>
-              
+              <td>
+                <div class="dados">
+                <p>Protein</p>
+                <strong><p class="numeração">20g</p></strong>
+                </div>
+              </td>
+              <hr>
             </tr>
               
             <tr>
-              <td>Fat</td>
-              <td>22g</td>
+              <td>
+                <div class="dados">
+                  <p>Fat</p>
+                  <strong><p class="numeração">22g</p></strong>
+                </div>
+              </td>
             </tr>  
-          </table>
   </div>
   
   <div class="attribution">
